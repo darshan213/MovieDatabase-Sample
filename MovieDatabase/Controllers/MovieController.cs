@@ -12,6 +12,7 @@ namespace MovieDatabase.Controllers
         public ActionResult Index()
         {
             return View();
+
         }
     }
 }

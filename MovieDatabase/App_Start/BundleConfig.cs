@@ -22,6 +22,14 @@ namespace MovieDatabase
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            //Angular 
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                      "~/Scripts/lib/Angular/angular.min.js"));
+
+            //Movie controller
+            bundles.Add(new ScriptBundle("~/bundles/angular-movie-controller").Include(
+                      "~/Scripts/JsController/MovieController.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
