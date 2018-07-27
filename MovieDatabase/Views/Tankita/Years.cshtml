@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Years";
+}
+
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/angular-movie-controller")
+
+@*how to create and object in angular*@
+<h2>This is an object</h2>
+
+<div ng-app="" ng-init="person={firstName:'John',lastName:'Doe'}">
+
+    <p>The name is {{ person.lastName }}</p>
+
+</div>
+
+

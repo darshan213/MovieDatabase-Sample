@@ -150,6 +150,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="Controllers\KeyurController.cs" />
+    <Compile Include="Controllers\TankitaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,10 +197,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Movie\Index.cshtml" />
     <Content Include="Views\Keyur\Movie.cshtml" />
+    <Content Include="Views\Tankita\Years.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Movie\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

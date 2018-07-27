@@ -183,3 +183,4 @@ C:\source\MovieDatabase\MovieDatabase-Sample\MovieDatabase\obj\Debug\MovieDataba
 C:\source\MovieDatabase\MovieDatabase-Sample\MovieDatabase\obj\Debug\MovieDatabase.csproj.CopyComplete
 C:\source\MovieDatabase\MovieDatabase-Sample\MovieDatabase\obj\Debug\MovieDatabase.dll
 C:\source\MovieDatabase\MovieDatabase-Sample\MovieDatabase\obj\Debug\MovieDatabase.pdb
+C:\source\MovieDatabase\MovieDatabase-Sample\MovieDatabase\obj\Debug\MovieDatabase.csprojAssemblyReference.cache
