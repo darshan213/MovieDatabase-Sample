@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/angular-movie-controller")
+
+<div ng-app="MovieApp" ng-controller="MovieController">
+
+    @*First Table*@
+
+    <div class="row">
+        <div class="col-sm-4">Search for Movies
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+            </form>
+          
+            <ul class="list-group">
+                <li class="list-group-item active">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>a=
+        </div>
+
+        <div class="col-sm-8">Movies Information 
+            <form>
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Text</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-search-input" class="col-2 col-form-label">Search</label>
+                    <div class="col-10">
+                        <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+  </div>
+
+
