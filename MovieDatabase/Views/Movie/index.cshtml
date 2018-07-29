@@ -7,46 +7,88 @@
 @Scripts.Render("~/bundles/angular-movie-controller")
 
 <div ng-app="MovieApp" ng-controller="MovieController">
-
     @*First Table*@
-
     <div class="row">
-        <div class="col-sm-4">Search for Movies
+        <div class="col-sm-4">
             <form>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                   <h1 class="display-1" >Enter Movie</h1>
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Movie" />
+                    <br />
+                    <button type="button" class="btn btn-primary">Submit</button>
                 </div>
-            </form>
-          
-            <ul class="list-group">
-                <li class="list-group-item active">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>a=
+            </form>   
+            <div class="list-group">
+                <button type="button" class="list-group-item">One</button>
+                <button type="button" class="list-group-item">Two</button>
+                <button type="button" class="list-group-item">Three</button>
+                <button type="button"class="list-group-item">Four</button>
+                <button type="button" class="list-group-item">Five</button>
+                <button type="button" class="list-group-item">Six</button>
+                <button type="button" class="list-group-item">Seven</button>
+                <button type="button" class="list-group-item">Eight</button>
+                <button type="button" class="list-group-item">Nine</button>
+                <button type="button" class="list-group-item">Ten</button>
+            </div>
         </div>
 
-        <div class="col-sm-8">Movies Information 
+        @*Second Information Table*@
+        <div class="col-sm-8">
             <form>
-                <div class="form-group row">
-                    <label for="example-text-input" class="col-2 col-form-label">Text</label>
-                    <div class="col-10">
-                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+              <h1 class="display-1">Movie Information</h1>
+            
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Film TItle</span>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="example-search-input" class="col-2 col-form-label">Search</label>
-                    <div class="col-10">
-                        <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>    
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Actors</span>
                     </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
                 </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Running TIme</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Genre</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Year</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Director</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+
             </form>
         </div>
-
-
     </div>
   </div>
 
